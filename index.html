@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .resume-container {
+            width: 100%;
+            min-height: 100vh; 
+            background-image: url('https://cdn.prod.website-files.com/634fa785d369cb60d80b6dd1/63985fcf08cc459a181847d4_Business-intelligence-banner.webp'); /* REPLACE WITH YOUR IMAGE URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            box-sizing: border-box;
+        }
+
+        .resume-content {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 40px;
+            color: white; 
+            max-width: 1500px; 
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-wrap: wrap; 
+        }
+
+        .left-column {
+            flex: 1; 
+            min-width: 300px; 
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+
+        .right-column {
+            flex: 1; 
+            min-width: 300px; 
+            padding-left: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            align-items: flex-end; 
+            text-align: right;
+            padding-top: 50px; 
+        }
+
+        h1 {
+            color: red;
+            font-size: 24px;
+            text-align: center;
+            width: 100%; 
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-top: 1px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        p {
+            margin-bottom: 1px;
+            line-height: 1;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid white;
+            margin: 5px 0;
+            width: 100%; 
+        }
+
+        .contact-info p {
+            margin-bottom: 2px;
+        }
+
+        .objective-text {
+            margin-top: 2px;
+            margin-bottom: 5px;
+        }
+
+        .right-column-text {
+            font-size: 1em; 
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+        }
+        @media (max-width: 768px) {
+            .resume-content {
+                flex-direction: column; 
+                padding: 10px;
+            }
+
+            .left-column, .right-column {
+                min-width: unset;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .right-column {
+                align-items: flex-start; 
+                text-align: left;
+                padding-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <div class="resume-content">
+            <h1 style="color: red; text-align: center; width: 100%; margin-bottom: 20px; font-size: 24px;">CURRICULUM VITAE</h1>
+
+            <div class="left-column">
+                <h2>Infomax Academy</h2>
+                <div class="contact-info">
+                    <p>Address: G.R. Complex Prayam Nagar, Dhoomanganj</p>
+                    <p>Prayagraj, Uttar Pradesh - 211011</p>
+                    <p>Mobile: +91 8874388166</p>
+                    <p>Email: info@infomaxacademy.com</p>
+                </div>
+
+                <hr>
+
+                <h2>Career Objective</h2>
+                <p class="objective-text">To pursue a career as a renowned firm with dedicated efforts and to associate myself with an organization that gives me a chance to update my knowledge.</p>
+
+                <h2>Educational Qualification:</h2>
+                <p>Graduation B.Com (Computer Science) Under Osmania University from Anantapur Degree college, Anantapur 2009</p>
+                <p>Intermediate I.I.C under Board of Intermediate Education from Nandayate Jr. College, Anantapur at 2006</p>
+                <p>S.S.C from Board of Secondary Education, Trivan High School, Anantapur at 2004</p>
+
+                <h2>Computer Skills:</h2>
+                <p>P.G.D.C.A (Post Graduate Diploma in Computer Application)</p>
+                <p>A.D.C.A (Advanced Diploma in Computer Application)</p>
+                <p>D.T.P (Desktop Publisher)</p>
+                <p>Operation System (XP, 2000, 98, and Other)</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
